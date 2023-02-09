@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -37,10 +38,6 @@ header {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 #mobile-nav {
@@ -56,17 +53,12 @@ html {
   height: 100%;
   z-index: 100;
   background-color: #1c1a19;
-
 }
 
 #mobile-nav ul {
-display: flex;
-flex-direction: column;
-width: 100%;
-}
-
-#mobile-nav li {
-  border-bottom: 1px solid #dbd8d7;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .mobile-links {
@@ -76,6 +68,7 @@ width: 100%;
 .active {
   display: flex !important;
 }
+
 .menu-bars {
   background: transparent;
   border: none;
@@ -596,4 +589,8 @@ textarea {
     width: 3vw;
     height: 32px;
   }
+}
+
+#mobile-nav li {
+  border-bottom: 1px solid #dbd8d7;
 }
