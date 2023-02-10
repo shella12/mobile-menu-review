@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -39,6 +40,34 @@ header {
   line-height: 24px;
 }
 
+#mobile-nav {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: #1c1a19;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+#mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mobile-links {
+  color: #dbd8d7;
+}
+
+.active {
+  display: flex !important;
+}
+
 .menu-bars {
   background: transparent;
   border: none;
@@ -48,6 +77,12 @@ header {
 .menu-bars i {
   width: 18px;
   height: 12px;
+  color: white;
+}
+
+.x-mark {
+  align-self: flex-end;
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -559,4 +594,8 @@ textarea {
     width: 3vw;
     height: 32px;
   }
+}
+
+#mobile-nav li {
+  border-bottom: 1px solid #dbd8d7;
 }
