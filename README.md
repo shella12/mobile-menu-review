@@ -1,90 +1,87 @@
+<a name="readme-top"></a>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [❓ FAQ](#faq)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [mobile-menu] <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-> The Bookstore is a website similar to the "Awesome Books" website. This is a MVP version of it that allows you to:
+# 📖 PortFolio <a name="about-project"></a>
 
-> - Display a list of books.
-> - Add a book.
-> - Remove a selected book.
-
+PortFolio is a sample project used for practice.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-- **[Add New Book]**
-- **[Fetch books online]**
-- **[Remove books]**
+- Show my software project
+- links to my social media
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Live demo not available yet!
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-- Vistual Studio Code
-- Browser (Firefox / Google Chrome)
-- Node.js (v6.11.2+)
-- linters
+
+- Browser
+- Code editor
+
 
 ### Setup
 
-Clone this repository to your desired folder:
+To clone and run this project on your machine please follow the instructions: 
 
-```sh
-  cd my-folder
-  git clone git@github.com:shella12/reactBookStore.git
-```
+1. On your GIT bash run \
+`git clone hhttps://github.com/shella12/mobile-menu-review.git`
 
-## Install
-
-```sh
- npm install --save -dev
-```
-
-## Start server
-
-``` npm start ```
-
-## To test the app run following command
-
-``` npm test ```
 
 ### Usage
 
-Create a personal book store by adding and removing books.
+To run the project, execute the following command:
+
+1. Browse to the project directory \
+`cd mobile-menu-review/`
+
+2. Launch the project \
+`./index.html`
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -92,26 +89,49 @@ Create a personal book store by adding and removing books.
 - Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
 - LinkedIn: [Ayesha Arshad](https://www.linkedin.com/in/ayesha-arshad-a690a015a/)
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Implement localstorage
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+If you like this project add it to you favourite list
 
-## ❓ FAQ <a name="faq"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **[Why use this app?]**
+<!-- ACKNOWLEDGEMENTS -->
 
-  - [To create a personal book store. Add and remove books in the store and access them anywhere using the website]
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- **[Why build this app?]**
 
-  - [Its a good app to learn building with react as a begainner]
+I would like to thank Microverse team
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
